@@ -325,7 +325,7 @@ st.write("")
 spacer1,col6,spacer2=st.columns([1,1,1])
 
 with col6:
-    with open("PowerBi.json","r") as f:
+    with open("PowerBI.json","r") as f:
         powerBi=json.load(f)
     st_lottie(powerBi,height=200)
     project_button("HR ANALYTICS DASHBOARD","https://github.com/VanshikanRana/HR-Analytics-Dashboard-Using-Power-BI")
@@ -389,5 +389,6 @@ with col2:
 
 with col3:
     clickable_image(github_icon, "https://github.com/VanshikanRana", 40)
+
 
 st.markdown("----------------------------------")
